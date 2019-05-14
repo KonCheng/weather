@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.0.2.RELEASE</version>
+        <relativePath/> <!-- lookup parent from repository -->
+    </parent>
+    <groupId>com.koncheng</groupId>
+    <artifactId>weather</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>weather</name>
+    <packaging>pom</packaging>
+    <description>weather</description>
+
+    <properties>
+        <java.version>1.8</java.version>
+    </properties>
+
+    <modules>
+        <module>micro-weather-basic</module>
+        <module>micro-weather-quartz</module>
+        <module>micro-weather-redis</module>
+        <module>micro-weather-report</module>
+        <module>msa-weather-city-server</module>
+        <module>msa-weather-collection-server</module>
+        <module>msa-weather-data-server</module>
+        <module>msa-weather-report-server</module>
+        <module>micro-weather-eureka-server</module>
+        <module>micro-weather-eureka-client</module>
+        <module>msa-weather-report-eureka</module>
+        <module>msa-weather-data-eureka</module>
+        <module>msa-weather-collection-eureka</module>
+        <module>msa-weather-city-eureka</module>
+        <module>micro-weather-eureka-client-feign</module>
+        <module>msa-weather-collection-eureka-feign</module>
+        <module>msa-weather-report-eureka-feign</module>
+        <module>micro-weather-eureka-client-zuul</module>
+        <module>msa-weather-eureka-client-zuul</module>
+        <module>msa-weather-report-eureka-feign-gateway</module>
+        <module>micro-weather-config-server</module>
+        <module>micro-weather-config-client</module>
+        <module>micro-weather-eureka-client-feign-hystrix</module>
+        <module>msa-weather-report-eureka-feign-gateway-hystrix</module>
+    </modules>
+
+</project>
